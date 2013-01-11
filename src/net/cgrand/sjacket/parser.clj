@@ -48,7 +48,7 @@
              :unreadable :eval :reader-literal}
    :nil (token "nil")
    :boolean #{(token "true") (token "false")}
-   :char (re/regex \\ (re/+ (cs/not whitespace-char)))
+   :char (re/regex \\ (cs/not whitespace-char) (re/* constituent-char))
    :string (p/unspaced
               [\"
                #"([^\"\\]|\\[trn\\\"bf]|\\u[0-9].{3}|\\[0-9].{0,2})*+"
