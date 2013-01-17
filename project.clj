@@ -1,4 +1,4 @@
-(defproject org.clojars.trptcolin/sjacket "0.1.0.1"
+(defproject org.clojars.trptcolin/sjacket "0.1.0.2"
   :description "Structural code transformations for the masses."
   :url "http://github.com/cgrand/sjacket/"
   :dependencies [[org.clojure/clojure "[1.3.0,)"]
