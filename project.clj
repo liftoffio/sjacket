@@ -1,4 +1,4 @@
-(defproject net.cgrand/sjacket "0.1.1"
+(defproject org.clojars.trptcolin/sjacket "0.1.1.1"
   :description "Structural code transformations for the masses."
   :url "http://github.com/cgrand/sjacket/"
   :license {:name "Eclipse Public License 1.0"}
