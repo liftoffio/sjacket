@@ -1,4 +1,4 @@
-(ns net.cgrand.sjacket.test
+(ns net.cgrand.sjacket-test
   (:use [clojure.test :only [deftest is are]])
   (:require [net.cgrand.sjacket :as sj]
             [net.cgrand.sjacket.parser :as p]))
@@ -204,7 +204,7 @@
     (and parsed-input (has-no-unexpected-nodes? parsed-input))))
 
 (deftest parse-own-source-code
-  (is (valid-file-parse? "net/cgrand/sjacket/test.clj"))
+  (is (valid-file-parse? "net/cgrand/sjacket_test.clj"))
   (is (valid-file-parse? "net/cgrand/sjacket.clj"))
   (is (valid-file-parse? "net/cgrand/sjacket/parser.clj")))
 
